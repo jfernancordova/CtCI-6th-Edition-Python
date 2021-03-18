@@ -41,10 +41,6 @@ def one_edit_insert(s1, s2):
 
 class Test(unittest.TestCase):
     test_cases = [
-        # no changes
-        ("pale", "pale", True),
-        ("", "", True),
-        # one insert
         ("pale", "ple", True),
         ("ple", "pale", True),
         ("pales", "pale", True),
