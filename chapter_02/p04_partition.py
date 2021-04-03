@@ -22,9 +22,9 @@ def partition(ll, x):
 
 def example():
 
-    ll = LinkedList.generate(10, 0, 99)
+    ll = LinkedList([3, 5, 8, 5, 10, 2, 1])
     print(ll)
-    partition(ll, ll.head.value)
+    partition(ll, 5)
     print(ll)
 
 
